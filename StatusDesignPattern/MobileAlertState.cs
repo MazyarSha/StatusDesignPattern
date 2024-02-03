@@ -29,6 +29,7 @@ namespace StatusDesignPattern
         public MobileAlertState CurrentState { get; set; }
         public AlertStateContext()
         {
+            //default
             CurrentState = new Vibration();   
         }
         public void setState(MobileAlertState State)
