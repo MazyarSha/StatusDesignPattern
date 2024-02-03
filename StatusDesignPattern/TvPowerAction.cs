@@ -31,6 +31,7 @@ namespace StatusDesignPattern
     {
         public Tv()
         {
+            //default
             tvPowerAction = new OffStatus();
         }
         public TvPowerAction tvPowerAction { get; set; }
